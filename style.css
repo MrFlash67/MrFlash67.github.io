@@ -1,0 +1,131 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+    width: 60%;
+    height: 50%;
+    background-color: red;
+    margin: auto;
+}
+#wrapper.blog {
+    height: auto;
+}
+#wrapper.comic {
+    height: auto;
+    background-color: #0091EA;
+	display: table;
+}
+p {
+    text-align: center;
+}
+header {
+    height: 20%;
+    width: 100%;
+    background-color: #00B0FF;
+    text-align: center;
+    font-family: 'Source Code Pro', ;
+    font-size: 42;
+    display: table;
+}
+header h1 {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+nav {
+    width: 60%;
+    height: 20%;
+    background-color: #0091EA;
+    display: table;
+    margin: auto;
+    border-bottom: solid #FFFFFF 30px;
+    text-align: center;
+}
+nav.comic {
+    height: 3em;
+    border-bottom: none;
+    width: 50%;
+    text-align: center;
+}
+nav img {
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+nav ul {
+    padding: 0%;
+    margin: auto;
+    font-family: 'Source Code Pro', ;
+    font-size: 36;
+    display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+}
+nav ul li {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0% 5% 0% 5%;
+    line-height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0% auto;
+    text-align: center;
+}
+nav a {
+    margin: 0 auto;
+    padding: 10%;
+    border: solid 2px #263238;
+    background-color: #00BFA5;
+    text-align: center;
+	vertical-align: middle;
+    text-align: center;
+}
+article {
+	padding-top: 0.01%;
+    height: 25em;
+    background-color: #00ACC1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+article.half {
+	width: 50%;
+    float: right;
+}
+article.comic {
+    height: auto;
+}
+article.comic img {
+    width: 100%;
+}
+article p {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+section {
+	padding-top: 0.01%;
+    font-family: 'Roboto', sans-serif;
+    height: 25em;
+    background-color: #039BE5;
+    text-align: center;
+}
+section.half {
+    width: 50%;
+}
+section.blog {
+    height: auto;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+footer {
+    height: 12%;
+    width: 100%;
+    background-color: #757575;
+    display: table;
+}
+footer p {
+    text-align: center;
+    display: table-cell;
+    text-align: middle;
+}
