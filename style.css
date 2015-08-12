@@ -7,8 +7,8 @@ body {
     height: 50%;
     background-color: red;
     margin: auto;
-	border: solid 0px;
-	border-radius: 10%;
+	/* border: solid 0px;
+	border-radius: 10%; */
 }
 #wrapper.blog {
     height: auto;
