@@ -7,6 +7,8 @@ body {
     height: 50%;
     background-color: red;
     margin: auto;
+	border: solid 0px;
+	border-radius: 10%;
 }
 #wrapper.blog {
     height: auto;
@@ -27,6 +29,8 @@ header {
     font-family: 'Source Code Pro', ;
     font-size: 42;
     display: table;
+	border: solid 0px;
+	border-radius: 10%; 
 }
 header h1 {
     text-align: center;
@@ -117,6 +121,11 @@ section.blog {
     height: auto;
     padding-left: 16%;
     padding-right: 16%;
+}
+section.code {
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 footer {
     height: 12%;
