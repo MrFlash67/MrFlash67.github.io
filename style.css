@@ -187,3 +187,14 @@ footer p {
     display: table-cell;
     text-align: middle;
 }
+#footer {
+    height: 12%;
+    width: 100%;
+    background-color: #757575;
+    display: table;
+}
+#footer p {
+    text-align: center;
+    display: table-cell;
+    text-align: middle;
+}
